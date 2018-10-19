@@ -6,7 +6,9 @@ A repo created to assist my brother in learning Python while he does a Udemy cla
  - `cd homeEnvironment`
 2. Now you need to clone the repo by typing the following:
  - `git clone https://github.com/mcole22266/pythonTutorial`
-3. When you've finished create a file called `hello.py` and have it print 'Hello World'
+3. Now change change directory into that directory
+ - `cd homeEnvironment`
+4. When you've finished create a file called `hello.py` and have it print 'Hello World'
  - if done successfully, you should be able to do and see the following:
 
 ```bash
@@ -14,7 +16,7 @@ $ python hello.py
 hello world
 
 ```
-4. Lastly, push the file up by doing the following:
+5. Lastly, push the file up by doing the following:
  - Add the file that you've made changes to to the staging area:
  	- `git add hello.py`
  - Commit your changes with an anotated message:
