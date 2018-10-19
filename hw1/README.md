@@ -14,6 +14,7 @@ There are three types of errors here:
 ## Instructions
 1. Make a copy of `hw1.py` by typing the following:
  - `cp hw1.py hw1Solution.py`
+ 	- The way copy works is `cp FileToCopy NewNameOfCopiedFile`
 2. Fix all of the errors
  - `python hw1Solution.py` should return no errors and only print statements
 3. When complete, use git to push `hw1Solutions.py` up to the repo:
