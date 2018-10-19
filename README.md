@@ -16,7 +16,10 @@ $ python hello.py
 hello world
 
 ```
-5. Lastly, push the file up by doing the following:
+5. Now, tell git who you are:
+ - git config --global user.email "you@example.com"
+ - git config --global user.name "Your Name"
+6. Lastly, push the file up by doing the following:
  - Add the file that you've made changes to to the staging area:
  	- `git add hello.py`
  - Commit your changes with an anotated message:
