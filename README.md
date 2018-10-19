@@ -10,7 +10,8 @@ A repo created to assist my brother in learning Python while he does a Udemy cla
  - if done successfully, you should be able to do and see the following:
 ```bash
 $ python hello.py
-hello world```
+hello world
+```
 4. Lastly, push the file up by doing the following:
  1. Add the file that you've made changes to to the staging area:
  	- `git add hello.py`
