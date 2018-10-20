@@ -10,6 +10,7 @@
 |   List   |    `list`     | [42, 1.21, "foo", [1, "bar"], 5]  |
 |  Tuple   |    `tuple`    |     (3, 2) *can contain anything* |
 |Dictionary|     `dict`    |    {'Red': 'rojo', 'Eggs': 14}    |
+|  None    |    `None`     |     Literally just means None     |
 
 ### Integer
 - contains no decimal place
@@ -63,6 +64,10 @@ englishToSpanish = {'red': 'rojo',
 ```
 
 - **Note**: dictionary values can also be other dictionaries 
+
+### None
+- Nonetype literally is just None. 
+- `bool(None)` == `False`
 
 ---
 
