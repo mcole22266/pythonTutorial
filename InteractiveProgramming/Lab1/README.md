@@ -37,13 +37,20 @@ numbers together.
 to some variables:
  - `number1 = input('Number 1:  ')`
  - `number2 = input('Number 2:  ')`
-4. Now that we have the user's numbers assigned to variables, we need to get the total:
+4. **Important**: This is the part that alot of programmers miss. When you assign a variable 
+using the `input` function, the user input is **always** given as a **string** - even if you 
+want it to be an integer or float. To solve this, we need to convert our new variables into 
+integers (or floats) before we do any arithmetic.
+ - `number1 = int(number1)`
+ - `number2 = int(number2)`
+5. Now that we have the user's numbers assigned to variables and of the correct type, we 
+need to get the total:
  - `total = number1 + number2`
-5. Now simply finish off by printing the answer to the screen.
+6. Now simply finish off by printing the answer to the screen.
  - `print('Total: {}'.format(total))`
-6. Now save the program in Atom and run in in Git Bash. You should see something like this:
+7. Now save the program in Atom and run in in Git Bash. You should see something like this:
 
-```bash 
+```bash
 $ python example.py
 Welcome to the Number Adder 3000: Pro Edition
 ---------------------------------------------
@@ -60,10 +67,19 @@ print('-----------------------------------------')
 
 number1 = input('Number 1:  ')
 number2 = input('Number 2:  ')
-total = number1 + number 2
 
-print(f'Total: {}'.format(total))
+number1 = int(number1)
+number2 = int(number2)
+
+total = number1 + number2
+
+print('Total: {}'.format(total))
 ```
+*\- Note: the spacing is readability and is not needed for Python to run \-*
+
+Now, go ahead and run your code to make sure it works. Can you think of any ways that the 
+user could cause an error with your programming? Later, you'll learn ways to guard against that 
+and ensure that the user doesn't break your program.
 
 ### Part A: Fahrenheit &rarr; Celsius 
 The goal here is to make a program that converts Farenheits to degrees. I'll walk you 
@@ -72,9 +88,14 @@ through it.
 1. First create a file called `converter.py` and open it with Atom &rarr; `atom converter.py`
 2. On the first line, use the `input` function in order to ask the user for the a 
 temperature in Fahrenheit and save it into a variable called `f`. 
-3. On the next line, we want to convert fahrenheit into celsius so Google the formula. 
+3. Remember that user-input is always a string. We need to perform some arithmetic on the given 
+number so be sure to convert it from a string into an integer (or float)
+4. On the next line, we want to convert fahrenheit into celsius so Google the formula and see if 
+you can figure out how to do it.
  - `c = whateverTheFormulaIs` will assign the conversion to a variable called `c`. 
-4. Finally, we want to print the answer to the screen (maybe use the `format` function you 
+ - **Note:** If you can't figure it out, I've gone ahead and included the line at the very bottom of 
+ this document.
+5. Finally, we want to print the answer to the screen (maybe use the `format` function you 
 recently learned?
 
 Here are some sample runs that should be similar to yours:
@@ -108,3 +129,21 @@ Enter the length of the bottom base: 10
 Enter the length of the top base: 7
 The area is: 42.5
 ```
+
+### Part C: Mad Libz
+Create a program called `madlibz.py` that asks the user for adjective, nouns, verbs, adverbs, 
+name of a person they know, number, color, feeling, etc.. in order to gather information to fill 
+out a fun Mad Libz story. 
+
+## When Complete
+When you've completed everything, push everything up to Github:
+1. Add all new and changed files to the staging area:
+ - `git add --all` 
+2. Commit your changes with a message explaining what the commit is for:
+ - `git commit -m 'Completed Interactive Lab 1'`
+3. Push your commmitted changes up:
+ - `git push`
+
+---
+#### formula for converter.py
+`c = (f - 32) * (5/9)`
