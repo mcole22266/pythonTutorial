@@ -18,8 +18,9 @@
 # Create a function, called ducklings, that prints out the correct
 # names for the ducklings
 
-
-
+def ducklings():
+    prefixes = "JKLMNOPQ"
+    suffix = "ack"
 
 #----------------------------------------------------------------------
 # 
@@ -29,6 +30,7 @@
 # formatted multiplication table, up to 12 x 12.
 #
 
+def twelve_table():
 
 
 #----------------------------------------------------------------------
@@ -39,6 +41,8 @@
 # argument.
 # 
 
+def reverse_string(string):
+
 
 #----------------------------------------------------------------------
 # 
@@ -48,6 +52,7 @@
 # given letter from a string.
 #
 
+def remove_letter(string, removeChar):
 
 
 #----------------------------------------------------------------------
@@ -57,3 +62,25 @@
 # Write a function, count_substring, that counts how many
 # non-overlapping occurences of a substring appear in a string. Takes
 # two parameters, a string and a substring to count
+
+def count_substring(string, substring):
+
+
+# FOR TESTING ---------------------------------------------------------
+# ---------------------------------------------------------------------
+# Problem 1:
+assert ducklings() == 'Jack Kack Lack Mack Nack Ouack Pack Quack'
+
+# Problem 2:
+print('Should be a multiplication table: 12x12')
+twelve_table()
+
+# Problem 3: 
+assert reverse_string('Hello World') == 'dlroW olleH'
+assert reverse_string('12345') == '54321'
+
+# Problem 4: 
+assert remove_letter('Hello World', 'l') == 'Heo Word'
+
+# Problem 5:
+assert count_substring('Bippity Boppity Boo', 'pity') == 2
