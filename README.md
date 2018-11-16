@@ -58,11 +58,11 @@ do the following:
 
 1. Go to https://chrome.google.com/webstore/category/extensions
 2. Type `Markdown Viewer` in the search bar
- - Likely the first one but ensure the author is `simov.github.io`
+    - Likely the first one but ensure the author is `simov.github.io`
 3. Add the Extension
 4. After it is enabled, you should see an 'm' in your toolbar. 
- 1. Click on it and click on Advanced Options
- 2. At the top right, click Allow All
+    1. Click on it and click on Advanced Options
+    2. At the top right, click Allow All
 
 You should be all set now! Since you've cloned this document onto your local machine, you 
 can test it out by opening this `README.md` file using Google Chrome (it may ask which 
