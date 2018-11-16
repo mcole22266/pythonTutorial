@@ -20,9 +20,9 @@ makeSum(42, 8)   # should return 50
 
 ### Instructions
 1. Copy the assignment into a different file:
- - `cp lists.py listsSolution.py`
+ - `cp lists.py listsSolution_yourname.py`
 2. Solve the assignment
 3. Push the assignment up and let me know you're done
- - `git add listsSolution.py`
- - `git commit -m 'Completed listsSolution.py'`
+ - `git add listsSolution_yourname.py`
+ - `git commit -m 'Completed lists.py'`
  - `git push`

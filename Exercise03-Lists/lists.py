@@ -48,7 +48,12 @@
 #
 # Write a function replace(s, old, new) that replaces all occurences
 # of old with new in a string s:
-# 
+# Hint: use the split and join methods.
+
+
+
+
+# TESTS -----
 # test(replace('Mississippi', 'i', 'I'), 'MIssIssIppI')
 # 
 # s = 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!'
@@ -57,6 +62,3 @@
 # 
 # test(replace(s, 'o', 'a'),
 #        'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!')
-# 
-# Hint: use the split and join methods.
-
