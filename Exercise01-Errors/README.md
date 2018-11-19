@@ -5,7 +5,6 @@ In the file `errors.py` you will see that it is full of errors. Ex: `python erro
 print something to the screen. Your goal is to fix all of these errors so that the above command will print the 
 required items to the screen. 
 
-
 There are three types of errors here:
 - **syntax** errors
 - **runtime** errors

@@ -14,8 +14,8 @@ name = input('Please type your name.  ')
 print('Hello {}!'.format(name))
 ``` 
 
-Go ahead and create the above code in Atom, save it as `hello.py` and then run it in 
-GitBash by typing `python hello.py`. 
+Go ahead and create the above code in your preferred text editor, save it as `hello_yourname.py` and then run it in 
+GitBash by typing `python hello_yourname.py`. 
 
 Notice that the `input` function acts very similarly to the `print` function except it 
 allows a user to type something which is then saved into whatever variable you like 
@@ -29,7 +29,7 @@ will also challenge you based on what you know at this point:
 First I want to walk you through an example. We're going to make a program that adds two 
 numbers together.
 
-1. Create a file called 'example.py' and open it with Atom &rarr; `atom example.py`
+1. Create a file called 'example.py' and open it with your preferred text editor &rarr; `atom example.py`
 2. First, let's print something to let the user know that they're running a program
  - `print('Welcome to Number Adder 3000: Pro Edition')`
  - `print('-----------------------------------------')` (this line to make it pretty)
@@ -48,10 +48,10 @@ need to get the total:
  - `total = number1 + number2`
 6. Now simply finish off by printing the answer to the screen.
  - `print('Total: {}'.format(total))`
-7. Now save the program in Atom and run in in Git Bash. You should see something like this:
+7. Now save the program in your preferred text editor and run in in Git Bash. You should see something like this:
 
 ```bash
-$ python example.py
+$ python example_yourname.py
 Welcome to the Number Adder 3000: Pro Edition
 ---------------------------------------------
 Number 1: 55
@@ -85,7 +85,7 @@ and ensure that the user doesn't break your program.
 The goal here is to make a program that converts Farenheits to degrees. I'll walk you 
 through it.
 
-1. First create a file called `converter.py` and open it with Atom &rarr; `atom converter.py`
+1. First create a file called `converter_yourname.py` and open it with your preferred text editor.
 2. On the first line, use the `input` function in order to ask the user for the a 
 temperature in Fahrenheit and save it into a variable called `f`. 
 3. Remember that user-input is always a string. We need to perform some arithmetic on the given 
@@ -99,22 +99,22 @@ you can figure out how to do it.
 recently learned?
 
 Here are some sample runs that should be similar to yours:
-```bash
-$ python converter.py
+```
+$ python converter_yourname.py
 Enter temperature in Fahrenheit: 32
 The temperature in Celsius: 0.0
 
-$ python converter.py
+$ python converter_yourname.py
 Enter temperature in Fahrenheit: 72
 The temperature in Celsius: 22.222222222
 ```
 
-**Bonus:** Maybe you can think of a way to format (or round *hint hint*) the value so that 
+**Bonus:** Maybe you can think of a way to format (or **round** *hint hint*) the value so that 
 you the floating point doesn't stretch out so far.
 
 
 ### Part B: Area of a Trapezoid
-Create a new program called `trapezoidArea.py` that will ask the user for the information needed 
+Create a new program called `trapezoidArea_yourname.py` that will ask the user for the information needed 
 to find the area of a trapezoid and then print the area. Here is the formula to find the area 
 of a trapezoid:    
 
@@ -123,7 +123,7 @@ of a trapezoid:
 Sample Run should look something like:
 
 ```bash
-$ python trapezoidArea.py
+$ python trapezoidArea_yourname.py
 Enter the height of the trapezoid: 5
 Enter the length of the bottom base: 10
 Enter the length of the top base: 7
@@ -131,19 +131,19 @@ The area is: 42.5
 ```
 
 ### Part C: Mad Libz
-Create a program called `madlibz.py` that asks the user for adjective, nouns, verbs, adverbs, 
+Create a program called `madlibz_yourname.py` that asks the user for adjective, nouns, verbs, adverbs, 
 name of a person they know, number, color, feeling, etc.. in order to gather information to fill 
 out a fun Mad Libz story. 
 
 ## When Complete
 When you've completed everything, push everything up to Github:
 1. Add all new and changed files to the staging area:
- - `git add --all` 
+ - `git add hello_yourname.py example_yourname.py converter_yourname.py trapezoidArea_yourname.py madLibz_yourname.py` 
 2. Commit your changes with a message explaining what the commit is for:
  - `git commit -m 'Completed Interactive Lab 1'`
 3. Push your commmitted changes up:
  - `git push`
 
 ---
-#### formula for converter.py
+#### formula for converter_yourname.py
 `c = (f - 32) * (5/9)`

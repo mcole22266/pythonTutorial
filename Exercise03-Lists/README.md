@@ -1,7 +1,7 @@
 # HW2 - Lists
 
 ## Assignment 
-The first assignment is called `lists.py`. In this assignment, you'll find instructions 
+This assignment is called `lists.py`. In this assignment, you'll find instructions 
 written as comments that explain what to do for each problem. You need to create the function 
 and then, underneath, call that function and have it demonstrate what was instructed. 
 
