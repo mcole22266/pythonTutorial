@@ -61,8 +61,8 @@ do the following:
     - Likely the first one but ensure the author is `simov.github.io`
 3. Add the Extension
 4. After it is enabled, you should see an 'm' in your toolbar. 
-    1. Click on it and click on Advanced Options
-    2. At the top right, click Allow All
+    - Right click on the 'm' and click on 'Manage Extensions'
+    - You should see "Allow access to file URLs" - select that box
 
 You should be all set now! Since you've cloned this document onto your local machine, you 
 can test it out by opening this `README.md` file using Google Chrome (it may ask which 
