@@ -7,7 +7,7 @@ A repo created to assist my brother in learning Python while he does a Udemy cla
 2. Now you need to clone the repo by typing the following:
  - `git clone https://github.com/mcole22266/pythonTutorial`
 3. Now change directory into that directory
- - `cd homeEnvironment`
+ - `cd pythonTutorial`
 4. When you've finished create a file called `hello_yourname.py` and have it print 'Hello World'
  - if done successfully, you should be able to do and see the following:
 
