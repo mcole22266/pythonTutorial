@@ -1,6 +1,6 @@
 # When run, this assertion statement will not fail
 
-def makeSume(num1, num2):
+def makeSum(num1, num2):
     total = num1 + num2
     return total 
 
