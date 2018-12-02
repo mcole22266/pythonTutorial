@@ -27,6 +27,6 @@ times_tables()
 # do not fully understand it. I was going to check with you to see if 
 # it was somehting you understand or is it over your head as well?
 def reverse_string(string):
-    string = string[::-1]
-    return string
+    new_string = string[::-1]
+    return new_string
 reverse_string('hello') 
