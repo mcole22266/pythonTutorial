@@ -8,7 +8,6 @@ def ducklings():
             word = letter + suffix
         print(word, end = (" "))
     print()
-
 ducklings()
 
 # I needed to be able to run each function individually so i had to 
@@ -27,3 +26,7 @@ times_tables()
 # This is some code i pulled from off of a python forum website and I  
 # do not fully understand it. I was going to check with you to see if 
 # it was somehting you understand or is it over your head as well?
+def reverse_string(string):
+    string = string[::-1]
+    return string
+reverse_string('hello') 
