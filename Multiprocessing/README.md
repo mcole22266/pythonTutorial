@@ -381,8 +381,20 @@ if __name__ == "__main__":
 
 Now, make sure you're looking at your System Monitor. First, run the program and tell it you'd like to only use 
 1 cpu. Compare that to the results of 2 cpus. Then, go ahead and max it out. You should see your cpu usage 
-skyrocket to 100% and notice the time to completion is much much faster. On my Desktop, 1 worker completed the 
-task in 13.6 seconds. When I maxed it out, it only took 1.97 seconds. 
+skyrocket to 100% and notice the time to completion is much much faster. 
+
+Here are my results for comparison:
+
+- Linux Mint desktop running on the Ryzen 7 2700x (16 workers available)
+ - 1 Worker: 13.55 seconds
+ - 4 Workers: 3.96 seconds
+ - 8 Workers: 2.48 seconds
+ - 16 Workers: 2.08 seconds
+
+- Windows 10 laptop running on the Intel Core i7 8th gen (8 workers available)
+ - 1 Worker: 19.82 seconds
+ - 4 Workers: 7.57 seconds
+ - 8 Workers: 6.10 seconds
 
 If you think your computer can handle it, change the code to make the program work even harder! Make the miniLists 
 even larger or add more of them to the bigList. See how this changes the rate of completion!
