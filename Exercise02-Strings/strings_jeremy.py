@@ -26,7 +26,37 @@ times_tables()
 # This is some code i pulled from off of a python forum website and I  
 # do not fully understand it. I was going to check with you to see if 
 # it was somehting you understand or is it over your head as well?
+
 def reverse_string(string):
     new_string = string[::-1]
     return new_string
-reverse_string('hello') 
+
+print(reverse_string('Hello World'))
+
+
+
+def remove_letter(string, removeChar):
+    new_string = string.replace(removeChar,"")
+    return new_string
+print(remove_letter('what the fuck','f'))
+
+def count_substring(string, substring):
+    result = 0
+    sub_length = len(substring)
+    for i in range(len(string)):
+        if string[i:i+sub_length] == substring:
+            result += 1
+    return result
+    pass
+def count_substring(string, substring):
+    result = string.count(substring)
+    return result
+
+print(count_substring('bippity boppity boo','pity'))
+
+
+
+
+
+
+
