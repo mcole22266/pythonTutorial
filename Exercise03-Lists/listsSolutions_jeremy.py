@@ -22,10 +22,6 @@ def average(L):
     return new_result
 print(average(random_list))
     
-
-    
-
-
 #----------------------------------------------------------------------
 # 
 # Problem 2
@@ -34,7 +30,14 @@ print(average(random_list))
 # squares of the numbers in the list xs. For example,
 # sum_of_squares([2, 3, 4]) should return 4+9+16 which is 29.
 #
-
+xs = [2,3,4]
+def sum_of_squares(alist):
+    result = 0
+    for num in alist:
+        num_squared = num ** 2
+        result += num_squared
+    return result
+print(sum_of_squares(xs))
 
 
 #----------------------------------------------------------------------
@@ -44,8 +47,14 @@ print(average(random_list))
 # Write a function sum_of_evens(L) that returns the sum of all the
 # even numbers in the list L
 # 
-
-
+def sum_of_evens(L):
+    result = 0
+    for num in L:
+        if num % 2 == 0:
+            result += num
+    return result
+mylist = [1,2,3,4,5,6,7,8]
+print(sum_of_evens(mylist))
 
 #----------------------------------------------------------------------
 # 
@@ -54,6 +63,17 @@ print(average(random_list))
 # Write a function count_5(L) that returns the count of how many words
 # in the list L have length 5
 #
+def count_5(L):
+    result = 0
+    for item in L:
+        if type(item) == str:
+            if len(item) == 5:
+                result += 1
+    return result
+mylist = ['fourth',3,4,'seven','eight','paper']
+print(count_5(mylist))
+
+
 
 
 
@@ -65,7 +85,11 @@ print(average(random_list))
 # of old with new in a string s:
 # Hint: use the split and join methods.
 
-
+def replace(s, old, new):
+    new_string = s.replace(old, new)
+    return new_string
+s ='I love spom! Spom is my favorite food. Spom, Spom, Spom, yum!'
+print(replace(s,"om","am"))
 
 
 # TESTS -----
