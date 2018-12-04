@@ -391,6 +391,12 @@ Here are my results for comparison:
  - 8 Workers: 2.48 seconds
  - 16 Workers: 2.08 seconds
 
+- Windows 10 desktop running on the Ryzen 7 2700x (16 workers available)
+ - 1 Worker: 17.76 seconds 
+ - 4 Workers: 4.91 seconds
+ - 8 Workers: 3.27 seconds
+ - 16 Workers: 2.55 seconds
+
 - Windows 10 laptop running on the Intel Core i7 8th gen (8 workers available)
  - 1 Worker: 19.82 seconds
  - 4 Workers: 7.57 seconds
